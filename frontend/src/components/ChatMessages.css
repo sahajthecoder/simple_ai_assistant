@@ -1,0 +1,6 @@
+.chat-messages-container{
+	/* To make the chat messages section take the entire remaining bottom space so that the input container comes below */
+	flex-grow: 1;
+	overflow: scroll;
+	scrollbar-width: none;
+}

@@ -1,0 +1,25 @@
+.chat-message-user{
+	display : flex;
+	justify-content: end;
+	align-items: center;   /* Handles the vertical alignement of the elements in a flexbox */
+}
+
+.chat-message-robot{
+	display: flex;
+
+	align-items: center;  /* To prevent the iamge from stretching */
+
+	max-width: 350px;
+}
+
+
+.chat-message-text{
+	background-color: rgb(238, 238, 238);
+	padding: 15px 20px;
+	border-radius: 10px;
+	margin: 15px 13px;
+}
+
+.chat-message-profile{
+	width : 48px;
+}
